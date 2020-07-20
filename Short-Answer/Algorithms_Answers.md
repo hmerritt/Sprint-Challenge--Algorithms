@@ -11,3 +11,12 @@ b) __O(n log n)__ - for loop += n. while loop will increase as n does since j = 
 c) __O(n) : O(n * 2)__ - bunnyEars recursively runs from n down to 0 (never any more) making the operations performed proportionate to n
 
 ## Exercise II
+
+Binary search algorithm.
+
+Try dropping an egg off half of n;
+- if it breaks then half the height and try again
+
+- if not then use the top half ((n / 2) + (n / 4) this time) and try again
+
+Repeat until you find the highest non breaking-point.
